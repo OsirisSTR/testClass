@@ -2,7 +2,7 @@
 require_once __DIR__."/../parts/header.php";?>
 
 <a class="col-md-4 btn btn-primary mt-5 mb-3 p-3"
-   href="/app/db/posts/insertPost.php">
+   href="/insertpost">
     Добавить новую запись
 </a>
 
@@ -18,7 +18,7 @@ require_once __DIR__."/../parts/header.php";?>
         </td>
         <td class="col-md-2">
             <a class="btn btn-info p-2"
-               href="/app/db/posts/deletePost.php?id=<?=$row->id;?>">
+               href="/insertpost?id=<?=$row->id;?>">
                 Удалить пост
             </a>
         </td>
